@@ -1,0 +1,81 @@
+[ {
+  "uid" : "82b63d29b107440c",
+  "name" : "should have samsung on top",
+  "time" : {
+    "start" : 1642609286612,
+    "stop" : 1642609289758,
+    "duration" : 3146
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d35c0a07f7e0eda1",
+  "name" : "should have page title",
+  "time" : {
+    "start" : 1642609283084,
+    "stop" : 1642609283959,
+    "duration" : 875
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "22ef88b0455ad44a",
+  "name" : "should search for the product and check search bar value",
+  "time" : {
+    "start" : 1642609286599,
+    "stop" : 1642609286608,
+    "duration" : 9
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8f725e2dac0d7c10",
+  "name" : "should have page title",
+  "time" : {
+    "start" : 1642609285278,
+    "stop" : 1642609286598,
+    "duration" : 1320
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1c44fbca2235fe19",
+  "name" : "should search for the product and check search bar value",
+  "time" : {
+    "start" : 1642609283960,
+    "stop" : 1642609283968,
+    "duration" : 8
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "13b57eddf67686d2",
+  "name" : "after test",
+  "time" : {
+    "start" : 1642609289758,
+    "stop" : 1642609292912,
+    "duration" : 3154
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "68f0666389ebc2f7",
+  "name" : "should have samsung on top",
+  "time" : {
+    "start" : 1642609283970,
+    "stop" : 1642609288156,
+    "duration" : 4186
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7d440a9262060c23",
+  "name" : "after test",
+  "time" : {
+    "start" : 1642609288157,
+    "stop" : 1642609291327,
+    "duration" : 3170
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

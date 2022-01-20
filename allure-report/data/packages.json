@@ -1,0 +1,145 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "ebay search page case ",
+    "children" : [ {
+      "name" : "should have page title",
+      "uid" : "d35c0a07f7e0eda1",
+      "parentUid" : "2f358e589fdad39be10d0542cb42735b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642609283084,
+        "stop" : 1642609283959,
+        "duration" : 875
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-97.0.4692.71" ]
+    }, {
+      "name" : "should search for the product and check search bar value",
+      "uid" : "1c44fbca2235fe19",
+      "parentUid" : "2f358e589fdad39be10d0542cb42735b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642609283960,
+        "stop" : 1642609283968,
+        "duration" : 8
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-97.0.4692.71" ]
+    }, {
+      "name" : "should have samsung on top",
+      "uid" : "68f0666389ebc2f7",
+      "parentUid" : "2f358e589fdad39be10d0542cb42735b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642609283970,
+        "stop" : 1642609288156,
+        "duration" : 4186
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-97.0.4692.71" ]
+    }, {
+      "name" : "should have page title",
+      "uid" : "8f725e2dac0d7c10",
+      "parentUid" : "2f358e589fdad39be10d0542cb42735b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642609285278,
+        "stop" : 1642609286598,
+        "duration" : 1320
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "firefox-95.0.2" ]
+    }, {
+      "name" : "should search for the product and check search bar value",
+      "uid" : "22ef88b0455ad44a",
+      "parentUid" : "2f358e589fdad39be10d0542cb42735b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642609286599,
+        "stop" : 1642609286608,
+        "duration" : 9
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "firefox-95.0.2" ]
+    }, {
+      "name" : "should have samsung on top",
+      "uid" : "82b63d29b107440c",
+      "parentUid" : "2f358e589fdad39be10d0542cb42735b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642609286612,
+        "stop" : 1642609289758,
+        "duration" : 3146
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : true,
+      "parameters" : [ "firefox-95.0.2" ]
+    }, {
+      "name" : "after test",
+      "uid" : "7d440a9262060c23",
+      "parentUid" : "2f358e589fdad39be10d0542cb42735b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642609288157,
+        "stop" : 1642609291327,
+        "duration" : 3170
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-97.0.4692.71" ]
+    }, {
+      "name" : "after test",
+      "uid" : "13b57eddf67686d2",
+      "parentUid" : "2f358e589fdad39be10d0542cb42735b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642609289758,
+        "stop" : 1642609292912,
+        "duration" : 3154
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "firefox-95.0.2" ]
+    } ],
+    "uid" : "2f358e589fdad39be10d0542cb42735b"
+  } ]
+}

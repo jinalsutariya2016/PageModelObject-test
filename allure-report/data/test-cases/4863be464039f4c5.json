@@ -1,0 +1,60 @@
+{
+  "uid" : "4863be464039f4c5",
+  "name" : "should have page title",
+  "fullName" : "ebay search page case .should have page title",
+  "historyId" : "ae0433ef219749e9d9233ab0a00e1109",
+  "time" : {
+    "start" : 1642605653381,
+    "stop" : 1642605654426,
+    "duration" : 1045
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "ebay search page case "
+  }, {
+    "name" : "testClass",
+    "value" : "ebay search page case "
+  }, {
+    "name" : "testMethod",
+    "value" : "should have page title"
+  }, {
+    "name" : "package",
+    "value" : "ebay search page case "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-97.0.4692.71"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4863be464039f4c5.json",
+  "parameterValues" : [ "chrome-97.0.4692.71" ]
+}

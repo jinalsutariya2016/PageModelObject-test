@@ -1,0 +1,85 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1642619275010' stop='1642619290242'>
+    <name>ebay search page case </name>
+    <title>ebay search page case </title>
+    <test-cases>
+        <test-case start='1642619275011' status='passed' stop='1642619275922'>
+            <name>should have page title</name>
+            <title>should have page title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1642619275923' status='passed' stop='1642619275931'>
+            <name>should search for the product and check search bar value</name>
+            <title>should search for the product and check search bar value</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1642619275933' status='failed' stop='1642619287319'>
+            <name>should have samsung on top</name>
+            <title>should have samsung on top</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='d97160e1-40b2-4cbc-938b-6d58eda02cd3-attachment.png' type='image/png' size='458475'/>
+                <attachment title='Screenshot' source='59f66567-3dfb-4b07-98b9-315cd0c0c51e-attachment.png' type='image/png' size='458475'/>
+            </attachments>
+            <failure>
+                <message>Expect $(`//*[@id="srp-river-results"]/ul/li[1]/div/div[2]/a/h3`) to have text containing
+                
+                Expected: "Samsung"
+                Received: undefined</message>
+                <stack-trace>Error: Expect $(`//*[@id="srp-river-results"]/ul/li[1]/div/div[2]/a/h3`) to have text containing
+                
+                Expected: "Samsung"
+                Received: undefined
+                    at Context.&lt;anonymous> (C:\Users\jsutariya\OneDrive - Nexient\Desktop\Training\PageModelObject-test\test\specs\search.js:28:45)
+                    at Context.executeAsync (C:\Users\jsutariya\OneDrive - Nexient\Desktop\Training\PageModelObject-test\node_modules\@wdio\utils\build\shim.js:325:27)
+                    at Context.testFrameworkFnWrapper (C:\Users\jsutariya\OneDrive - Nexient\Desktop\Training\PageModelObject-test\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:45:32)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1642619287319' status='passed' stop='1642619290237'>
+            <name>after test</name>
+            <title>after test</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='563c20c7-be51-4309-bbd5-66956ae9f6ae-attachment.png' type='image/png' size='156386'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

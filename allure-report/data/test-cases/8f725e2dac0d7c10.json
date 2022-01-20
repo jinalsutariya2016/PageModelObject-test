@@ -1,0 +1,70 @@
+{
+  "uid" : "8f725e2dac0d7c10",
+  "name" : "should have page title",
+  "fullName" : "ebay search page case .should have page title",
+  "historyId" : "1155f7a04be4c96aeda436b63b18980e",
+  "time" : {
+    "start" : 1642609285278,
+    "stop" : 1642609286598,
+    "duration" : 1320
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "1-0"
+  }, {
+    "name" : "suite",
+    "value" : "ebay search page case "
+  }, {
+    "name" : "testClass",
+    "value" : "ebay search page case "
+  }, {
+    "name" : "testMethod",
+    "value" : "should have page title"
+  }, {
+    "name" : "package",
+    "value" : "ebay search page case "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-95.0.2"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "651f18d07783d936",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642605655550,
+        "stop" : 1642605656512,
+        "duration" : 962
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8f725e2dac0d7c10.json",
+  "parameterValues" : [ "firefox-95.0.2" ]
+}

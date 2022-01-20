@@ -1,0 +1,82 @@
+{
+  "uid" : "54fe43f6db85e753",
+  "name" : "should have samsung on top",
+  "fullName" : "ebay search page case .should have samsung on top",
+  "historyId" : "43fd5d190c370454788ccfd286fac822",
+  "time" : {
+    "start" : 1642605654440,
+    "stop" : 1642605658142,
+    "duration" : 3702
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e995c359e74d7f51",
+      "name" : "Screenshot",
+      "source" : "e995c359e74d7f51.png",
+      "type" : "image/png",
+      "size" : 458475
+    }, {
+      "uid" : "313b9e4ac8a74d41",
+      "name" : "Screenshot",
+      "source" : "313b9e4ac8a74d41.png",
+      "type" : "image/png",
+      "size" : 458475
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "ebay search page case "
+  }, {
+    "name" : "testClass",
+    "value" : "ebay search page case "
+  }, {
+    "name" : "testMethod",
+    "value" : "should have samsung on top"
+  }, {
+    "name" : "package",
+    "value" : "ebay search page case "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-97.0.4692.71"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "54fe43f6db85e753.json",
+  "parameterValues" : [ "chrome-97.0.4692.71" ]
+}

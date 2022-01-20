@@ -1,0 +1,72 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1642605653381' stop='1642605660578'>
+    <name>ebay search page case </name>
+    <title>ebay search page case </title>
+    <test-cases>
+        <test-case start='1642605653381' status='passed' stop='1642605654426'>
+            <name>should have page title</name>
+            <title>should have page title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1642605654427' status='passed' stop='1642605654437'>
+            <name>should search for the product and check search bar value</name>
+            <title>should search for the product and check search bar value</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1642605654440' status='passed' stop='1642605658142'>
+            <name>should have samsung on top</name>
+            <title>should have samsung on top</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='d139f3cd-5620-4d97-9e36-09db99483895-attachment.png' type='image/png' size='458475'/>
+                <attachment title='Screenshot' source='fb6488c5-dd49-4bcf-88d3-56b41c8e9b28-attachment.png' type='image/png' size='458475'/>
+            </attachments>
+        </test-case>
+        <test-case start='1642605658143' status='passed' stop='1642605660573'>
+            <name>after test</name>
+            <title>after test</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='947c3923-39df-43ad-8978-4d41fc99329b-attachment.png' type='image/png' size='252724'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="ebay search page case" timestamp="2022-01-19T14:10:06" time="15.291" tests="4" failures="1" errors="1" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="ebay search page case "/>
+      <property name="capabilities" value="chrome.97_0_4692_71.windows"/>
+      <property name="file" value=".\test\specs\search.js"/>
+    </properties>
+    <testcase classname="chrome.97_0_4692_71.windows.ebay_search_page_case_" name="should have page title" time="1.353">
+      <system-out><![CDATA[
+COMMAND: POST /session/08a5d0177bfcbebaf78be6abea1b8090/window/maximize - {}
+COMMAND: GET /session/08a5d0177bfcbebaf78be6abea1b8090/title - {}
+RESULT: {"url":"https://www.ebay.com/"}
+RESULT: {}
+COMMAND: GET /session/08a5d0177bfcbebaf78be6abea1b8090/screenshot - {}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.97_0_4692_71.windows.ebay_search_page_case_" name="should search for the product and check search bar value" time="0.008">
+      <system-out><![CDATA[
+COMMAND: POST /session/08a5d0177bfcbebaf78be6abea1b8090/window/maximize - {}
+COMMAND: POST /session/08a5d0177bfcbebaf78be6abea1b8090/element - {"using":"css selector","value":"#gh-ac"}
+COMMAND: POST /session/08a5d0177bfcbebaf78be6abea1b8090/element - {"using":"css selector","value":"#gh-btn"}
+COMMAND: POST /session/08a5d0177bfcbebaf78be6abea1b8090/element - {"using":"css selector","value":"#gh-ac"}
+COMMAND: GET /session/08a5d0177bfcbebaf78be6abea1b8090/screenshot - {}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.97_0_4692_71.windows.ebay_search_page_case_" name="should have samsung on top" time="11.057">
+      <failure/>
+      <error message="Expect $(`//*[@id=&quot;srp-river-results&quot;]/ul/li[1]/div/div[2]/a/h3`) to have text containing&#xA;&#xA;Expected: &quot;Samsung&quot;&#xA;Received: undefined"/>
+      <system-out><![CDATA[
+COMMAND: POST /session/08a5d0177bfcbebaf78be6abea1b8090/window/maximize - {}
+COMMAND: POST /session/08a5d0177bfcbebaf78be6abea1b8090/element - {"using":"xpath","value":"//*[@id=\"srp-river-results\"]/ul/li[1]/div/div[2]/a/h3"}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+RESULT: {"using":"css selector","value":"#gh-btn"}
+COMMAND: POST /session/08a5d0177bfcbebaf78be6abea1b8090/element/776129fe-3046-44b5-aa72-ffc3ca3374c0/click - {}
+RESULT: {"using":"xpath","value":"//*[@id=\"srp-river-results\"]/ul/li[1]/div/div[2]/a/h3"}
+COMMAND: POST /session/08a5d0177bfcbebaf78be6abea1b8090/elements - {"using":"xpath","value":"//*[@id=\"srp-river-results\"]/ul/li[1]/div/div[2]/a/h3"}
+RESULT: {"using":"css selector","value":"#gh-ac"}
+COMMAND: GET /session/08a5d0177bfcbebaf78be6abea1b8090/element/b8be0c8a-8345-42f6-b0f8-15072614d8e6/property/value - {}
+RESULT: {"using":"css selector","value":"#gh-ac"}
+COMMAND: POST /session/08a5d0177bfcbebaf78be6abea1b8090/element/b8be0c8a-8345-42f6-b0f8-15072614d8e6/value - {"text":"mobile"}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+RESULT: {"using":"xpath","value":"//*[@id=\"srp-river-results\"]/ul/li[1]/div/div[2]/a/h3"}
+COMMAND: POST /session/08a5d0177bfcbebaf78be6abea1b8090/elements - {"using":"xpath","value":"//*[@id=\"srp-river-results\"]/ul/li[1]/div/div[2]/a/h3"}
+COMMAND: POST /session/08a5d0177bfcbebaf78be6abea1b8090/element - {"using":"css selector","value":"#gh-ac"}
+COMMAND: POST /session/08a5d0177bfcbebaf78be6abea1b8090/element - {"using":"css selector","value":"#gh-ac"}
+RESULT: {"using":"xpath","value":"//*[@id=\"srp-river-results\"]/ul/li[1]/div/div[2]/a/h3"}
+COMMAND: POST /session/08a5d0177bfcbebaf78be6abea1b8090/elements - {"using":"xpath","value":"//*[@id=\"srp-river-results\"]/ul/li[1]/div/div[2]/a/h3"}
+RESULT: {"using":"css selector","value":"#gh-ac"}
+COMMAND: GET /session/08a5d0177bfcbebaf78be6abea1b8090/element/b8be0c8a-8345-42f6-b0f8-15072614d8e6/property/value - {}
+RESULT: {"using":"css selector","value":"#gh-ac"}
+COMMAND: POST /session/08a5d0177bfcbebaf78be6abea1b8090/element/b8be0c8a-8345-42f6-b0f8-15072614d8e6/value - {"text":"mobile"}
+RESULT: {"using":"xpath","value":"//*[@id=\"srp-river-results\"]/ul/li[1]/div/div[2]/a/h3"}
+COMMAND: POST /session/08a5d0177bfcbebaf78be6abea1b8090/element - {"using":"css selector","value":"#gh-ac"}
+COMMAND: POST /session/08a5d0177bfcbebaf78be6abea1b8090/elements - {"using":"xpath","value":"//*[@id=\"srp-river-results\"]/ul/li[1]/div/div[2]/a/h3"}
+COMMAND: POST /session/08a5d0177bfcbebaf78be6abea1b8090/element - {"using":"css selector","value":"#gh-ac"}
+RESULT: {"using":"css selector","value":"#gh-ac"}
+COMMAND: GET /session/08a5d0177bfcbebaf78be6abea1b8090/element/adfdbdda-ba68-4f15-860c-317000b71f17/property/value - {}
+RESULT: {"using":"xpath","value":"//*[@id=\"srp-river-results\"]/ul/li[1]/div/div[2]/a/h3"}
+RESULT: {"using":"css selector","value":"#gh-ac"}
+COMMAND: POST /session/08a5d0177bfcbebaf78be6abea1b8090/element/adfdbdda-ba68-4f15-860c-317000b71f17/value - {"text":"mobile"}
+RESULT: {}
+COMMAND: GET /session/08a5d0177bfcbebaf78be6abea1b8090/element/adfdbdda-ba68-4f15-860c-317000b71f17/property/value - {}
+RESULT: {"text":"mobile"}
+RESULT: {}
+COMMAND: POST /session/08a5d0177bfcbebaf78be6abea1b8090/elements - {"using":"xpath","value":"//*[@id=\"srp-river-results\"]/ul/li[1]/div/div[2]/a/h3"}
+RESULT: {"using":"xpath","value":"//*[@id=\"srp-river-results\"]/ul/li[1]/div/div[2]/a/h3"}
+COMMAND: POST /session/08a5d0177bfcbebaf78be6abea1b8090/elements - {"using":"xpath","value":"//*[@id=\"srp-river-results\"]/ul/li[1]/div/div[2]/a/h3"}
+RESULT: {"using":"xpath","value":"//*[@id=\"srp-river-results\"]/ul/li[1]/div/div[2]/a/h3"}
+COMMAND: POST /session/08a5d0177bfcbebaf78be6abea1b8090/elements - {"using":"xpath","value":"//*[@id=\"srp-river-results\"]/ul/li[1]/div/div[2]/a/h3"}
+RESULT: {"using":"xpath","value":"//*[@id=\"srp-river-results\"]/ul/li[1]/div/div[2]/a/h3"}
+COMMAND: POST /session/08a5d0177bfcbebaf78be6abea1b8090/elements - {"using":"xpath","value":"//*[@id=\"srp-river-results\"]/ul/li[1]/div/div[2]/a/h3"}
+RESULT: {"using":"xpath","value":"//*[@id=\"srp-river-results\"]/ul/li[1]/div/div[2]/a/h3"}
+COMMAND: POST /session/08a5d0177bfcbebaf78be6abea1b8090/elements - {"using":"xpath","value":"//*[@id=\"srp-river-results\"]/ul/li[1]/div/div[2]/a/h3"}
+RESULT: {"using":"xpath","value":"//*[@id=\"srp-river-results\"]/ul/li[1]/div/div[2]/a/h3"}
+COMMAND: POST /session/08a5d0177bfcbebaf78be6abea1b8090/elements - {"using":"xpath","value":"//*[@id=\"srp-river-results\"]/ul/li[1]/div/div[2]/a/h3"}
+RESULT: {"using":"xpath","value":"//*[@id=\"srp-river-results\"]/ul/li[1]/div/div[2]/a/h3"}
+COMMAND: POST /session/08a5d0177bfcbebaf78be6abea1b8090/elements - {"using":"xpath","value":"//*[@id=\"srp-river-results\"]/ul/li[1]/div/div[2]/a/h3"}
+RESULT: {"using":"xpath","value":"//*[@id=\"srp-river-results\"]/ul/li[1]/div/div[2]/a/h3"}
+COMMAND: POST /session/08a5d0177bfcbebaf78be6abea1b8090/elements - {"using":"xpath","value":"//*[@id=\"srp-river-results\"]/ul/li[1]/div/div[2]/a/h3"}
+RESULT: {"using":"xpath","value":"//*[@id=\"srp-river-results\"]/ul/li[1]/div/div[2]/a/h3"}
+COMMAND: POST /session/08a5d0177bfcbebaf78be6abea1b8090/elements - {"using":"xpath","value":"//*[@id=\"srp-river-results\"]/ul/li[1]/div/div[2]/a/h3"}
+RESULT: {"using":"xpath","value":"//*[@id=\"srp-river-results\"]/ul/li[1]/div/div[2]/a/h3"}
+COMMAND: POST /session/08a5d0177bfcbebaf78be6abea1b8090/elements - {"using":"xpath","value":"//*[@id=\"srp-river-results\"]/ul/li[1]/div/div[2]/a/h3"}
+RESULT: {"using":"xpath","value":"//*[@id=\"srp-river-results\"]/ul/li[1]/div/div[2]/a/h3"}
+COMMAND: POST /session/08a5d0177bfcbebaf78be6abea1b8090/elements - {"using":"xpath","value":"//*[@id=\"srp-river-results\"]/ul/li[1]/div/div[2]/a/h3"}
+RESULT: {"using":"xpath","value":"//*[@id=\"srp-river-results\"]/ul/li[1]/div/div[2]/a/h3"}
+COMMAND: POST /session/08a5d0177bfcbebaf78be6abea1b8090/elements - {"using":"xpath","value":"//*[@id=\"srp-river-results\"]/ul/li[1]/div/div[2]/a/h3"}
+RESULT: {"using":"xpath","value":"//*[@id=\"srp-river-results\"]/ul/li[1]/div/div[2]/a/h3"}
+COMMAND: POST /session/08a5d0177bfcbebaf78be6abea1b8090/elements - {"using":"xpath","value":"//*[@id=\"srp-river-results\"]/ul/li[1]/div/div[2]/a/h3"}
+RESULT: {"using":"xpath","value":"//*[@id=\"srp-river-results\"]/ul/li[1]/div/div[2]/a/h3"}
+COMMAND: POST /session/08a5d0177bfcbebaf78be6abea1b8090/elements - {"using":"xpath","value":"//*[@id=\"srp-river-results\"]/ul/li[1]/div/div[2]/a/h3"}
+RESULT: {"using":"xpath","value":"//*[@id=\"srp-river-results\"]/ul/li[1]/div/div[2]/a/h3"}
+COMMAND: POST /session/08a5d0177bfcbebaf78be6abea1b8090/elements - {"using":"xpath","value":"//*[@id=\"srp-river-results\"]/ul/li[1]/div/div[2]/a/h3"}
+RESULT: {"using":"xpath","value":"//*[@id=\"srp-river-results\"]/ul/li[1]/div/div[2]/a/h3"}
+COMMAND: POST /session/08a5d0177bfcbebaf78be6abea1b8090/elements - {"using":"xpath","value":"//*[@id=\"srp-river-results\"]/ul/li[1]/div/div[2]/a/h3"}
+RESULT: {"using":"xpath","value":"//*[@id=\"srp-river-results\"]/ul/li[1]/div/div[2]/a/h3"}
+COMMAND: GET /session/08a5d0177bfcbebaf78be6abea1b8090/screenshot - {}
+]]></system-out>
+      <system-err><![CDATA[
+Error: Expect $(`//*[@id="srp-river-results"]/ul/li[1]/div/div[2]/a/h3`) to have text containing
+
+Expected: "Samsung"
+Received: undefined
+    at Context.<anonymous> (C:\Users\jsutariya\OneDrive - Nexient\Desktop\Training\PageModelObject-test\test\specs\search.js:28:45)
+    at Context.executeAsync (C:\Users\jsutariya\OneDrive - Nexient\Desktop\Training\PageModelObject-test\node_modules\@wdio\utils\build\shim.js:325:27)
+    at Context.testFrameworkFnWrapper (C:\Users\jsutariya\OneDrive - Nexient\Desktop\Training\PageModelObject-test\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:45:32)
+]]></system-err>
+    </testcase>
+    <testcase classname="chrome.97_0_4692_71.windows.ebay_search_page_case_" name="after test" time="2.849">
+      <system-out><![CDATA[
+COMMAND: POST /session/08a5d0177bfcbebaf78be6abea1b8090/window/maximize - {}
+COMMAND: POST /session/08a5d0177bfcbebaf78be6abea1b8090/url - {"url":"https://www.ebay.com/sch/i.html?_from=R40&_trksid=.m570.l1313&_nkw=mobile&_sacat=0&LH_TitleDesc=0&_odkw=mobile&_osacat=0"}
+RESULT: {}
+RESULT: {}
+RESULT: {"url":"https://www.ebay.com/sch/i.html?_from=R40&_trksid=.m570.l1313&_nkw=mobile&_sacat=0&LH_TitleDesc=0&_odkw=mobile&_osacat=0"}
+COMMAND: POST /session/08a5d0177bfcbebaf78be6abea1b8090/element - {"using":"css selector","value":"button[aria-label=\"More of category - Cell Phones & Accessories\"]"}
+RESULT: {"using":"css selector","value":"button[aria-label=\"More of category - Cell Phones & Accessories\"]"}
+COMMAND: POST /session/08a5d0177bfcbebaf78be6abea1b8090/element/34546f09-3701-4b38-96a7-ededde040d56/click - {}
+RESULT: {}
+COMMAND: POST /session/08a5d0177bfcbebaf78be6abea1b8090/elements - {"using":"css selector","value":"#x-refine__group__0 > ul > li> ul > li >ul > li span"}
+RESULT: {"using":"css selector","value":"#x-refine__group__0 > ul > li> ul > li >ul > li span"}
+COMMAND: GET /session/08a5d0177bfcbebaf78be6abea1b8090/element/3698bef7-541c-4344-b285-42fe909441ef/text - {}
+COMMAND: GET /session/08a5d0177bfcbebaf78be6abea1b8090/element/70c6d413-67b8-4b16-b65c-520461c159a0/text - {}
+COMMAND: GET /session/08a5d0177bfcbebaf78be6abea1b8090/element/2828cc3f-2256-4b46-8d76-328d8ec020e6/text - {}
+COMMAND: GET /session/08a5d0177bfcbebaf78be6abea1b8090/element/6335e895-d8a1-4ef5-849d-d755cd4aa8b9/text - {}
+COMMAND: GET /session/08a5d0177bfcbebaf78be6abea1b8090/element/c705adef-36ee-4b9f-b6cc-e60dfd516f1b/text - {}
+COMMAND: GET /session/08a5d0177bfcbebaf78be6abea1b8090/element/9a9ee574-7fe8-4c7d-a82a-cd4f2eee1b04/text - {}
+COMMAND: GET /session/08a5d0177bfcbebaf78be6abea1b8090/element/f0692256-c9e3-42c7-a5e8-4c2fd463c3b1/text - {}
+COMMAND: GET /session/08a5d0177bfcbebaf78be6abea1b8090/element/061eddad-7883-41c3-931b-021dcbe5538c/text - {}
+COMMAND: GET /session/08a5d0177bfcbebaf78be6abea1b8090/screenshot - {}
+COMMAND: GET /session/08a5d0177bfcbebaf78be6abea1b8090/element/895c88d3-290b-4671-8d7c-e7462a9eccde/text - {}
+COMMAND: GET /session/08a5d0177bfcbebaf78be6abea1b8090/element/a3f4af6b-cf97-4225-afed-140da8cc44f2/text - {}
+COMMAND: GET /session/08a5d0177bfcbebaf78be6abea1b8090/element/73b191ab-d960-4bb9-bf30-07be85714522/text - {}
+COMMAND: GET /session/08a5d0177bfcbebaf78be6abea1b8090/element/b83bf7ea-0c61-4e8b-8a40-3df62e35c64d/text - {}
+COMMAND: GET /session/08a5d0177bfcbebaf78be6abea1b8090/element/6e50a064-4de0-4d16-baa8-01e7de19e2a2/text - {}
+COMMAND: GET /session/08a5d0177bfcbebaf78be6abea1b8090/element/fbbc7a09-ade6-4b61-8637-628395b9a135/text - {}
+COMMAND: DELETE /session/08a5d0177bfcbebaf78be6abea1b8090 - {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

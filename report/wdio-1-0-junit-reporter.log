@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="ebay search page case" timestamp="2022-01-19T14:10:08" time="7.329" tests="4" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="ebay search page case "/>
+      <property name="capabilities" value="firefox.95_0_2.windows"/>
+      <property name="file" value=".\test\specs\search.js"/>
+    </properties>
+    <testcase classname="firefox.95_0_2.windows.ebay_search_page_case_" name="should have page title" time="1.437">
+      <system-out><![CDATA[
+COMMAND: POST /session/ce2f1af1-a330-40a8-b96c-6f65464844e1/window/maximize - {}
+COMMAND: GET /session/ce2f1af1-a330-40a8-b96c-6f65464844e1/title - {}
+RESULT: {"url":"https://www.ebay.com/"}
+RESULT: {}
+COMMAND: GET /session/ce2f1af1-a330-40a8-b96c-6f65464844e1/screenshot - {}
+]]></system-out>
+    </testcase>
+    <testcase classname="firefox.95_0_2.windows.ebay_search_page_case_" name="should search for the product and check search bar value" time="0.009">
+      <system-out><![CDATA[
+COMMAND: POST /session/ce2f1af1-a330-40a8-b96c-6f65464844e1/window/maximize - {}
+COMMAND: POST /session/ce2f1af1-a330-40a8-b96c-6f65464844e1/element - {"using":"css selector","value":"#gh-ac"}
+COMMAND: POST /session/ce2f1af1-a330-40a8-b96c-6f65464844e1/element - {"using":"css selector","value":"#gh-btn"}
+COMMAND: POST /session/ce2f1af1-a330-40a8-b96c-6f65464844e1/element - {"using":"css selector","value":"#gh-ac"}
+COMMAND: GET /session/ce2f1af1-a330-40a8-b96c-6f65464844e1/screenshot - {}
+]]></system-out>
+    </testcase>
+    <testcase classname="firefox.95_0_2.windows.ebay_search_page_case_" name="should have samsung on top" time="3.036">
+      <system-out><![CDATA[
+COMMAND: POST /session/ce2f1af1-a330-40a8-b96c-6f65464844e1/window/maximize - {}
+COMMAND: POST /session/ce2f1af1-a330-40a8-b96c-6f65464844e1/element - {"using":"xpath","value":"//*[@id=\"srp-river-results\"]/ul/li[1]/div/div[2]/a/h3"}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+RESULT: {"using":"css selector","value":"#gh-ac"}
+COMMAND: POST /session/ce2f1af1-a330-40a8-b96c-6f65464844e1/element/d3004f1d-8cd0-49a0-91ce-00d2208e6864/value - {"text":"mobile"}
+RESULT: {"using":"xpath","value":"//*[@id=\"srp-river-results\"]/ul/li[1]/div/div[2]/a/h3"}
+COMMAND: POST /session/ce2f1af1-a330-40a8-b96c-6f65464844e1/elements - {"using":"xpath","value":"//*[@id=\"srp-river-results\"]/ul/li[1]/div/div[2]/a/h3"}
+RESULT: {"using":"css selector","value":"#gh-ac"}
+COMMAND: GET /session/ce2f1af1-a330-40a8-b96c-6f65464844e1/element/d3004f1d-8cd0-49a0-91ce-00d2208e6864/property/value - {}
+RESULT: {"using":"css selector","value":"#gh-btn"}
+COMMAND: POST /session/ce2f1af1-a330-40a8-b96c-6f65464844e1/element/77784722-3455-482c-b746-d83baa70ba80/click - {}
+RESULT: {"text":"mobile"}
+RESULT: {"using":"xpath","value":"//*[@id=\"srp-river-results\"]/ul/li[1]/div/div[2]/a/h3"}
+RESULT: {}
+COMMAND: POST /session/ce2f1af1-a330-40a8-b96c-6f65464844e1/elements - {"using":"xpath","value":"//*[@id=\"srp-river-results\"]/ul/li[1]/div/div[2]/a/h3"}
+RESULT: {}
+RESULT: {"using":"xpath","value":"//*[@id=\"srp-river-results\"]/ul/li[1]/div/div[2]/a/h3"}
+COMMAND: POST /session/ce2f1af1-a330-40a8-b96c-6f65464844e1/element - {"using":"xpath","value":"//*[@id=\"srp-river-results\"]/ul/li[1]/div/div[2]/a/h3"}
+RESULT: {"using":"xpath","value":"//*[@id=\"srp-river-results\"]/ul/li[1]/div/div[2]/a/h3"}
+COMMAND: GET /session/ce2f1af1-a330-40a8-b96c-6f65464844e1/element/022cde29-881f-4288-8e98-a7e44345c639/text - {}
+RESULT: {}
+COMMAND: GET /session/ce2f1af1-a330-40a8-b96c-6f65464844e1/screenshot - {}
+]]></system-out>
+    </testcase>
+    <testcase classname="firefox.95_0_2.windows.ebay_search_page_case_" name="after test" time="2.824">
+      <system-out><![CDATA[
+COMMAND: POST /session/ce2f1af1-a330-40a8-b96c-6f65464844e1/window/maximize - {}
+COMMAND: POST /session/ce2f1af1-a330-40a8-b96c-6f65464844e1/url - {"url":"https://www.ebay.com/sch/i.html?_from=R40&_trksid=.m570.l1313&_nkw=mobile&_sacat=0&LH_TitleDesc=0&_odkw=mobile&_osacat=0"}
+RESULT: {}
+RESULT: {"url":"https://www.ebay.com/sch/i.html?_from=R40&_trksid=.m570.l1313&_nkw=mobile&_sacat=0&LH_TitleDesc=0&_odkw=mobile&_osacat=0"}
+COMMAND: POST /session/ce2f1af1-a330-40a8-b96c-6f65464844e1/element - {"using":"css selector","value":"button[aria-label=\"More of category - Cell Phones & Accessories\"]"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"button[aria-label=\"More of category - Cell Phones & Accessories\"]"}
+COMMAND: POST /session/ce2f1af1-a330-40a8-b96c-6f65464844e1/element/96b9854d-81da-48eb-9378-c0ff6da56ce4/click - {}
+RESULT: {}
+COMMAND: POST /session/ce2f1af1-a330-40a8-b96c-6f65464844e1/elements - {"using":"css selector","value":"#x-refine__group__0 > ul > li> ul > li >ul > li span"}
+RESULT: {"using":"css selector","value":"#x-refine__group__0 > ul > li> ul > li >ul > li span"}
+COMMAND: GET /session/ce2f1af1-a330-40a8-b96c-6f65464844e1/element/c7d2232e-f921-4050-b211-d1370a351b95/text - {}
+COMMAND: GET /session/ce2f1af1-a330-40a8-b96c-6f65464844e1/element/49098317-a52c-48b7-a115-256fe53aa3d2/text - {}
+COMMAND: GET /session/ce2f1af1-a330-40a8-b96c-6f65464844e1/element/71fd11a9-807f-4312-8a5f-b0f0e5303d48/text - {}
+COMMAND: GET /session/ce2f1af1-a330-40a8-b96c-6f65464844e1/element/62d87412-a901-4828-a6bf-b3448ee6a4a5/text - {}
+COMMAND: GET /session/ce2f1af1-a330-40a8-b96c-6f65464844e1/element/f30ddb5b-c2c1-486b-9e5d-1a1bdfff4fdf/text - {}
+COMMAND: GET /session/ce2f1af1-a330-40a8-b96c-6f65464844e1/element/2ac31e2e-d93e-4693-897d-f056496a6d4a/text - {}
+COMMAND: GET /session/ce2f1af1-a330-40a8-b96c-6f65464844e1/element/fa8d825a-a59c-4eaf-9aba-9a3e9f88152a/text - {}
+COMMAND: GET /session/ce2f1af1-a330-40a8-b96c-6f65464844e1/element/b0759dbb-5797-4930-a06e-70cfec1a19f1/text - {}
+COMMAND: GET /session/ce2f1af1-a330-40a8-b96c-6f65464844e1/screenshot - {}
+COMMAND: GET /session/ce2f1af1-a330-40a8-b96c-6f65464844e1/element/7bf54166-27c1-4265-aa3a-e051ac4ace95/text - {}
+COMMAND: GET /session/ce2f1af1-a330-40a8-b96c-6f65464844e1/element/b87c0ec4-9621-4b85-a611-2a2dc13d4024/text - {}
+COMMAND: GET /session/ce2f1af1-a330-40a8-b96c-6f65464844e1/element/0c8c31be-0217-4aeb-a1b3-fb83663796e9/text - {}
+COMMAND: GET /session/ce2f1af1-a330-40a8-b96c-6f65464844e1/element/e8f03058-e006-4c65-a826-724efacecd6e/text - {}
+COMMAND: GET /session/ce2f1af1-a330-40a8-b96c-6f65464844e1/element/bb3d8028-b03d-4f68-a487-d190aae9f309/text - {}
+COMMAND: GET /session/ce2f1af1-a330-40a8-b96c-6f65464844e1/element/1dfdb285-5790-454f-ae1f-6477aebc6881/text - {}
+COMMAND: DELETE /session/ce2f1af1-a330-40a8-b96c-6f65464844e1 - {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

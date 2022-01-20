@@ -1,0 +1,86 @@
+{
+  "uid" : "35fd24b6bbd20e68",
+  "name" : "should have samsung on top",
+  "fullName" : "ebay search page case .should have samsung on top",
+  "historyId" : "41f9844902e46f8676318f895f205a89",
+  "time" : {
+    "start" : 1642605656531,
+    "stop" : 1642605667185,
+    "duration" : 10654
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expect $(`//*[@id=\"srp-river-results\"]/ul/li[1]/div/div[2]/a/h3`) to have text containing\n                \n                Expected: \"Samsung\"\n                Received: undefined",
+  "statusTrace" : "Error: Expect $(`//*[@id=\"srp-river-results\"]/ul/li[1]/div/div[2]/a/h3`) to have text containing\n                \n                Expected: \"Samsung\"\n                Received: undefined\n                    at Context.<anonymous> (C:\\Users\\jsutariya\\OneDrive - Nexient\\Desktop\\Training\\PageModelObject-test\\test\\specs\\search.js:28:45)\n                    at Context.executeAsync (C:\\Users\\jsutariya\\OneDrive - Nexient\\Desktop\\Training\\PageModelObject-test\\node_modules\\@wdio\\utils\\build\\shim.js:325:27)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\jsutariya\\OneDrive - Nexient\\Desktop\\Training\\PageModelObject-test\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:45:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expect $(`//*[@id=\"srp-river-results\"]/ul/li[1]/div/div[2]/a/h3`) to have text containing\n                \n                Expected: \"Samsung\"\n                Received: undefined",
+    "statusTrace" : "Error: Expect $(`//*[@id=\"srp-river-results\"]/ul/li[1]/div/div[2]/a/h3`) to have text containing\n                \n                Expected: \"Samsung\"\n                Received: undefined\n                    at Context.<anonymous> (C:\\Users\\jsutariya\\OneDrive - Nexient\\Desktop\\Training\\PageModelObject-test\\test\\specs\\search.js:28:45)\n                    at Context.executeAsync (C:\\Users\\jsutariya\\OneDrive - Nexient\\Desktop\\Training\\PageModelObject-test\\node_modules\\@wdio\\utils\\build\\shim.js:325:27)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\jsutariya\\OneDrive - Nexient\\Desktop\\Training\\PageModelObject-test\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:45:32)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "105c9249e0b5c61d",
+      "name" : "Screenshot",
+      "source" : "105c9249e0b5c61d.png",
+      "type" : "image/png",
+      "size" : 654332
+    }, {
+      "uid" : "5bae198eb28beb0e",
+      "name" : "Screenshot",
+      "source" : "5bae198eb28beb0e.png",
+      "type" : "image/png",
+      "size" : 654332
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 2,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "1-0"
+  }, {
+    "name" : "suite",
+    "value" : "ebay search page case "
+  }, {
+    "name" : "testClass",
+    "value" : "ebay search page case "
+  }, {
+    "name" : "testMethod",
+    "value" : "should have samsung on top"
+  }, {
+    "name" : "package",
+    "value" : "ebay search page case "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-95.0.2"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "35fd24b6bbd20e68.json",
+  "parameterValues" : [ "firefox-95.0.2" ]
+}

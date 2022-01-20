@@ -1,0 +1,60 @@
+{
+  "uid" : "550fa956cdc49207",
+  "name" : "should search for the product and check search bar value",
+  "fullName" : "ebay search page case .should search for the product and check search bar value",
+  "historyId" : "895de685abce2453771d3ac45935555a",
+  "time" : {
+    "start" : 1642605656512,
+    "stop" : 1642605656526,
+    "duration" : 14
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "1-0"
+  }, {
+    "name" : "suite",
+    "value" : "ebay search page case "
+  }, {
+    "name" : "testClass",
+    "value" : "ebay search page case "
+  }, {
+    "name" : "testMethod",
+    "value" : "should search for the product and check search bar value"
+  }, {
+    "name" : "package",
+    "value" : "ebay search page case "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-95.0.2"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "550fa956cdc49207.json",
+  "parameterValues" : [ "firefox-95.0.2" ]
+}

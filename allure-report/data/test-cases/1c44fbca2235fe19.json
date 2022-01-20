@@ -1,0 +1,70 @@
+{
+  "uid" : "1c44fbca2235fe19",
+  "name" : "should search for the product and check search bar value",
+  "fullName" : "ebay search page case .should search for the product and check search bar value",
+  "historyId" : "edf7a11a121692863ed8be516b98c10",
+  "time" : {
+    "start" : 1642609283960,
+    "stop" : 1642609283968,
+    "duration" : 8
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "ebay search page case "
+  }, {
+    "name" : "testClass",
+    "value" : "ebay search page case "
+  }, {
+    "name" : "testMethod",
+    "value" : "should search for the product and check search bar value"
+  }, {
+    "name" : "package",
+    "value" : "ebay search page case "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-97.0.4692.71"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2a8b451d3c1d5310",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642605654427,
+        "stop" : 1642605654437,
+        "duration" : 10
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1c44fbca2235fe19.json",
+  "parameterValues" : [ "chrome-97.0.4692.71" ]
+}

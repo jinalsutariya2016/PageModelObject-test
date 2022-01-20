@@ -1,0 +1,86 @@
+{
+  "uid" : "7d440a9262060c23",
+  "name" : "after test",
+  "fullName" : "ebay search page case .after test",
+  "historyId" : "53aaf6313413b010ca8b9611adde6463",
+  "time" : {
+    "start" : 1642609288157,
+    "stop" : 1642609291327,
+    "duration" : 3170
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "72b87ecebb160eec",
+      "name" : "Screenshot",
+      "source" : "72b87ecebb160eec.png",
+      "type" : "image/png",
+      "size" : 252787
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "ebay search page case "
+  }, {
+    "name" : "testClass",
+    "value" : "ebay search page case "
+  }, {
+    "name" : "testMethod",
+    "value" : "after test"
+  }, {
+    "name" : "package",
+    "value" : "ebay search page case "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-97.0.4692.71"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "86d724481d67aecc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642605658143,
+        "stop" : 1642605660573,
+        "duration" : 2430
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7d440a9262060c23.json",
+  "parameterValues" : [ "chrome-97.0.4692.71" ]
+}

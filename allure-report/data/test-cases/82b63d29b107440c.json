@@ -1,0 +1,93 @@
+{
+  "uid" : "82b63d29b107440c",
+  "name" : "should have samsung on top",
+  "fullName" : "ebay search page case .should have samsung on top",
+  "historyId" : "41f9844902e46f8676318f895f205a89",
+  "time" : {
+    "start" : 1642609286612,
+    "stop" : 1642609289758,
+    "duration" : 3146
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2dc72ccb1110147b",
+      "name" : "Screenshot",
+      "source" : "2dc72ccb1110147b.png",
+      "type" : "image/png",
+      "size" : 770994
+    }, {
+      "uid" : "62b8132c6d76b6a5",
+      "name" : "Screenshot",
+      "source" : "62b8132c6d76b6a5.png",
+      "type" : "image/png",
+      "size" : 770994
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "1-0"
+  }, {
+    "name" : "suite",
+    "value" : "ebay search page case "
+  }, {
+    "name" : "testClass",
+    "value" : "ebay search page case "
+  }, {
+    "name" : "testMethod",
+    "value" : "should have samsung on top"
+  }, {
+    "name" : "package",
+    "value" : "ebay search page case "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-95.0.2"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "35fd24b6bbd20e68",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`//*[@id=\"srp-river-results\"]/ul/li[1]/div/div[2]/a/h3`) to have text containing\n                \n                Expected: \"Samsung\"\n                Received: undefined",
+      "time" : {
+        "start" : 1642605656531,
+        "stop" : 1642605667185,
+        "duration" : 10654
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "82b63d29b107440c.json",
+  "parameterValues" : [ "firefox-95.0.2" ]
+}
